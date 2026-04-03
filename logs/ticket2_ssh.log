@@ -1,0 +1,20 @@
+Apr 01 18:25:17 vboxuser-VirtualBox sshd[3372]: Invalid user labuser from 10.0.2.2 port 59252
+Apr 01 18:25:35 vboxuser-VirtualBox sshd[3374]: Accepted password for vboxuser from 10.0.2.2 port 49678 ssh2
+Apr 01 18:25:35 vboxuser-VirtualBox sshd[3374]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+Apr 01 18:25:35 vboxuser-VirtualBox sshd[3374]: pam_unix(sshd:session): session closed for user vboxuser
+Apr 01 18:29:46 vboxuser-VirtualBox sshd[3542]: Accepted password for vboxuser from 10.0.2.2 port 55812 ssh2
+Apr 01 18:29:46 vboxuser-VirtualBox sshd[3542]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+Apr 01 18:30:29 vboxuser-VirtualBox sshd[3604]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2  user=appuser
+Apr 01 18:30:31 vboxuser-VirtualBox sshd[3604]: Failed password for appuser from 10.0.2.2 port 53229 ssh2
+Apr 01 18:30:33 vboxuser-VirtualBox sshd[3604]: Failed password for appuser from 10.0.2.2 port 53229 ssh2
+Apr 01 18:30:38 vboxuser-VirtualBox sshd[3604]: Failed password for appuser from 10.0.2.2 port 53229 ssh2
+Apr 01 18:31:23 vboxuser-VirtualBox sshd[3614]: Accepted password for vboxuser from 10.0.2.2 port 58596 ssh2
+Apr 01 18:31:23 vboxuser-VirtualBox sshd[3614]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+Apr 01 18:34:33 vboxuser-VirtualBox systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Apr 01 18:34:33 vboxuser-VirtualBox sshd[1295]: Received signal 15; terminating.
+Apr 01 18:34:33 vboxuser-VirtualBox systemd[1]: ssh.service: Deactivated successfully.
+Apr 01 18:34:33 vboxuser-VirtualBox systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+Apr 01 18:34:33 vboxuser-VirtualBox systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Apr 01 18:34:33 vboxuser-VirtualBox sshd[3784]: Server listening on 0.0.0.0 port 22.
+Apr 01 18:34:33 vboxuser-VirtualBox sshd[3784]: Server listening on :: port 22.
+Apr 01 18:34:33 vboxuser-VirtualBox systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
